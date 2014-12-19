@@ -4,7 +4,8 @@ require.config({
 		'jquery.foo': 'vendor/jquery.foo-1.0',
 		'jquery.bar': 'vendor/jquery.bar-1.0',
 		'baz': 'vendor/baz',
-		'quux': 'vendor/quux'
+		'quux': 'vendor/quux',
+		'pkg': 'vendor/pkg'
 	},
 	shim: {
 		'jquery': { exports: '$' },
